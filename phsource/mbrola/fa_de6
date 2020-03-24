@@ -1,0 +1,129 @@
+// eSpeak Phonemes to Mbrola
+// Persian (Farsi) & English
+// "mb-de6-fa" & "mb-de7-fa"
+// Copy right: Mahmood Taghavi 2013-2020
+// https://mahmood-taghavi.github.io/eSpeakPlus/
+// License: GPL
+// Release: 2020-03-23
+
+// Limitation: These voices are very well but their phonemes are an approximation for Persian.
+
+// Persian vowels
+0	A	NULL	0	a:
+0	u	NULL	0	u:
+0	i	NULL	0	i:
+0	a	NULL	0	a
+0	e	NULL	0	E
+0	o	NULL	0	o:
+
+// Persian end of words
+0	_	NULL	0	NULL
+2	_	NULL	0	NULL
+
+// Persian & English consonants
+0	?	NULL	0	?
+0	b	NULL	0	b
+0	d	NULL	0	d
+0	dZ	NULL	50	d	Z
+0	D	NULL	0	D
+0	f	NULL	0	f
+0	g	NULL	0	g
+2	h	VWL		0	h
+0	h	NULL	0	_	h		// prevent become like "x" in DE6
+0	j	NULL	0	j
+0	k	NULL	0	k
+0	l	NULL	0	l
+0	m	NULL	0	m
+0	n	NULL	0	n
+0	N	NULL	0	N
+0	p	NULL	0	p
+1	q	1		0	R
+0	q	NULL	0	R
+0	r	NULL	0	r
+0	R	NULL	0	r
+0	s	NULL	0	s
+0	S	NULL	0	S
+0	t	NULL	0	t
+0	tS	NULL	0	tS
+0	T	NULL	0	T
+0	v	NULL	0	v
+0	x	NULL	0	x
+0	z	NULL	0	z
+0	Z	NULL	0	C
+
+// Persian & English others
+0	;	NULL	0	NULL
+0	g-	NULL	0	NULL
+0	@-	NULL	0	NULL
+
+// English vowels
+0	oU	NULL	50	o:	u:
+0	a#	NULL	0	@
+0	@2	NULL	0	@
+0	@5	NULL	0	@
+0	@/	NULL	0	@
+0	3	NULL	0	@
+0	I2	NULL	0	I
+0	i	NULL	0	i:
+0	a	NULL	0	a
+0	aa	NULL	0	a:
+0	0	NULL	0	a:
+0	E	NULL	0	E
+0	O	NULL	0	O
+0	O@	NULL	70	o:	@
+0	o@	NULL	70	o:	@
+0	A@	NULL	70	a:	@
+0	i@	NULL	60	i:	@
+0	i@3	NULL	60	i:	@
+0	IR	NULL	0	@	
+0	VR	NULL	0	@		
+0	@L	NULL	40	@	l
+0	l/2	NULL	0	l
+0	r/	NULL	0	r
+0	r-	NULL	0	r				// English: for another, are available
+0	w/	NULL	0	w
+0	aI@	NULL	70	aI	@
+0	aU@	NULL	70	aU	@
+0	t2	NULL	0	t
+0	@	NULL	0	@
+0	I	NULL	0	I
+0	U	NULL	0	U
+0	aU	NULL	0	aU
+2	w	i:		0	v				// i:w not allowed.
+0	w	NULL	0	w
+0	aI3	NULL	100	aI 	r
+0	*	NULL	100	t 	d
+0	t#	NULL	100	t 	d
+0	3:	NULL	0	@	
+0	i:	NULL	0	i:
+0	A:	NULL	0	a:
+0	u:	NULL	0	u:
+0	eI	NULL	60	E	j
+0	aI	NULL	0	aI
+0	O:	NULL	0	O
+0	e@	NULL	60	E	@
+0	U@	NULL	60	U	@
+0	I#	NULL	0	@
+0	t2	NULL	0	t
+0	V	NULL	0	a:
+0	OI	NULL	0	OY
+0	l/	NULL	0	l
+0	l-	NULL	0	l
+0	j/	NULL	0	j
+0	E2	NULL	0	E
+0	y	NULL	0	Y
+0	W	NULL	0	9
+0	A	NULL	0	a:
+0	Y:	NULL	0	2:
+0	_|	NULL	0	?
+0	_!	NULL	0	?
+0	pF	NULL	0	pf
+0	r	NULL	0	R
+0	V#	NULL	0	R
+0	UR	NULL	60	U	R
+0	W~	NULL	0	E~
+0	A~	NULL	0	a~
+0	O~	NULL	0	o~
+
+
+
