@@ -1,0 +1,8 @@
+eSpeakPlus version 1.1:
+- Now also support Windows XP by using Inno Setup 5.5.8 (Unicode) instead of Inno Setup 6.0.4 (Unicode).
+- Use a better Mbrolla.dll which was compiled by version 2015 of the visual studio instead of version 6.
+- Install Microsoft Visual C++ redistributable (x86) version 14.25.28508.3 to support the updated [mbrola.dll].
+
+eSpeakPlus version 1.0:
+- initial release of eSpeakPlus.
+- using espeak 1.48.15, open-source mbrola.dll which was compiled by the visual studio 6 c++, plus some open-source Mbrola voices, and the voice variants which were defined in the espeak NG project.

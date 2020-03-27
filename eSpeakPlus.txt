@@ -1,0 +1,19 @@
+eSpeakPlus is a collection of the legacy espeak version 1.48.15 Text To Speech (TTS) which supports SAPI 5 speech driver in Windows, the open-sourced Mbrola library, plus some Mbrola voices (ir1; de6; de7; en1; us1; us2; us3), and voice variants including the famous “max” which are defined in the espeak NG project. 
+The eSpeakPlus also provides phonetic translation files for two Mbrola diphone databases namely de6 and de7 and definition of mb-de6-fa, mb-de6-en, mb-de7-fa, and mb-de7-en espeak Mbrola voice files which enable espeak to read Persian and English text using the aforementioned German diphones.
+
+The direct link to the eSpeakPlus project homepage is:
+https://mahmood-taghavi.github.io/eSpeakPlus/
+
+The open-sourced projects which are used in the eSpeakPlus are:
+- espeak version 1.48.15 Text To Speech (TTS):
+http://espeak.sourceforge.net/test/latest.html
+- open-sourced Mbrola library
+https://github.com/thiekus/MBROLA
+-Mbrola voices:
+https://github.com/numediart/MBROLA-voices
+- voice variants of the espeak NG project:
+https://github.com/espeak-ng/espeak-ng/tree/master/espeak-ng-data/voices/!v
+
+License: GNU General Public License, version 3.
+Mahmood Taghavi © 2020
+https://mahmood-taghavi.github.io/
